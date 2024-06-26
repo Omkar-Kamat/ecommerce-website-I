@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion.</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="setting-bar flex">
+      <span class="flex left-setting-bar">
+        <div id="ship-ad" class="automargin setting-bar-padding">
+          <i class="fa-solid fa-truck"></i> FREE SHIPPING WORLDWIDE
+        </div>
+        <div id="region" class="automargin setting-bar-padding flex" onmouseover="enterSelectRegion()" onmouseout="exitSelectRegion()">
+          United States&nbsp;<div class="arrow-margin"><i class="fa-solid fa-angle-down"></i></div>
+          <!-- <div id="regionselect" >
+            <div>United States</div>
+            <div>India</div>
+          </div> -->
+        </div>
+        <div id="currency" class="automargin setting-bar-padding flex">
+          USD&nbsp;<div class="arrow-margin"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+        <div id="lang" class="automargin setting-bar-padding flex">
+          English&nbsp;<div class="arrow-margin"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+      </span>
+      <span class="flex right-setting-bar">
+        <div id="shipping" class="automargin setting-bar-padding">
+          <a>Shipping</a>
+        </div>
+        <div id="shipping" class="automargin setting-bar-padding">
+          <a>FAQ</a>
+        </div>
+        <div id="contact" class="automargin setting-bar-padding">
+          <a>Contact</a>
+        </div>
+        <div id="social" class="automargin setting-bar-padding">
+          <i class="fa-brands fa-instagram"></i
+          ><i class="fa-brands fa-x-twitter"></i>
+        </div>
+      </span>
+    </div>
+    <div class="navbar flex">
+      <h1 class="logo" class="left-nav">Fashion.</h1>
+      <span class="flex center-nav automargin">
+        <div class="" id="home"><a href="index.html">Home</a></div>
+        <div class="" id="catalog"><a href="catalog.html">Catalog</a></div>
+        <div class="" id="shop"><a href="">Shop</a></div>
+        <div class="" id="blog"><a href="#">Blog</a></div>
+        <div class="" id="about"><a href="#">About Us</a></div>
+      </span>
+      <span class="flex right-nav automargin">
+        <div class="" id="search" onmousedown="xyz()">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="" id="user"><i class="fa-regular fa-user"></i></div>
+        <div class="" id="like"><i class="fa-regular fa-heart"></i></div>
+        <div class="" id="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+      </span>
+    </div>
+    <div id="search-bar">
+<input class="text" id="search-box">
+    </div>
+    <div class="ad01">
+      <div>
+        <i class="fa-solid fa-star"></i>&nbsp;&nbsp; DIWALI OFFER: 69% OFF ON
+        PURCHASE OVER 420$ &nbsp;&nbsp;<i class="fa-solid fa-star"></i>
+      </div>
+    </div>
+
+    <div class="show-sec flex">
+      <section class="sec-frame" id="women">
+        <section id="women-sec">
+          <div class="sec-label">WOMEN</div>
+          <div class="shop-btn" >
+            <a id="women-tab-btn" onclick="">SHOP</a><a><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </section>
+      </section>
+      <section class="sec-frame" id="men">
+        <section id="men-sec">
+          <div class="sec-label">MEN</div>
+          <div class="shop-btn">
+            <a onclick="">SHOP</a><a><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </section>
+      </section>
+      <section class="sec-frame" id="kids">
+        <section id="kids-sec">
+          <div class="sec-label">KIDS</div>
+          <div class="shop-btn">
+            <a>SHOP</a><a><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </section>
+      </section>
+    </div>
+
+    <div class="speciality automargin flex">
+      <div class="spec-margin flex">
+        <span><i class="fa-solid fa-truck fa-xl"></i></span>
+        <span class="flex spec"
+          ><span><b>FREE SHIPPING</b></span>
+          <span>From all orders over 100$</span></span>
+      </div>
+      <div class="spec-margin flex">
+        <span><i class="fa-solid fa-repeat fa-xl"></i></span>
+        <span class="flex spec"
+          ><span><b>FREE RETURN</b></span>
+          <span>Return money in 15 days</span></span
+        >
+      </div>
+      <div class="spec-margin flex">
+        <span><i class="fa-solid fa-lock fa-xl"></i></span>
+        <span class="flex spec"
+          ><span><b>SECURE SHOPPING</b></span>
+          <span>Your'e in safe hands</span></span
+        >
+      </div>
+      <div class="spec-margin flex">
+        <span><i class="fa-solid fa-tag fa-xl"></i></span>
+        <span class="flex spec"
+          ><span><b>OVER 10,000 STYLES</b></span>
+          <span>We have everything you need</span></span
+        >
+      </div>
+    </div>
+    <div class="best-pick">
+      <div class="best-head">
+        <h5>NEW COLLECTION</h5>
+        <span>Best Picks This Year</span><br /><br />
+        Appear, dry there darkness they're seas, dry waters thing fly midst.
+        Beast, above fly brought Very green.
+      </div>
+    </div>
+    <div class="col-set automargin">
+      <section class="col-row-1 flex">
+        <div class="square">
+          <img src="./image/perfume-d&g.jpg" />
+          <div class="best-pick-label">
+            Perfumes
+            <h4><a>Shop</a>&nbsp;<i class="fa-solid fa-arrow-right"></i></h4>
+          </div>
+        </div>
+
+        <div class="rect">
+          <img src="./image/blazer.jpg" />
+          <div>
+            Blazers
+            <h4>Shop&nbsp;<i class="fa-solid fa-arrow-right"></i></h4>
+          </div>
+        </div>
+      </section>
+
+      <section class="col-row-2 flex">
+        <div class="rect">
+          <img src="./image/rect-2.jpg" />
+          <div>
+            Leather Products
+            <h4>Shop&nbsp;<i class="fa-solid fa-arrow-right"></i></h4>
+          </div>
+        </div>
+        <div class="square">
+          <img src="./image/handbag.jpg" />
+          <div>
+            Bags
+            <h4>Shop&nbsp;<i class="fa-solid fa-arrow-right"></i></h4>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="top-seller">
+      Top Month Sellers
+      <div class="flex tabs">
+        <div id="women-tab" onclick="womenTab()">Women</div>
+        <div id="men-tab" onclick="menTab()">Men</div>
+        <div id="kids-tab" onclick="kidsTab()">Kids</div>
+      </div>
+      <div class="top-pro automargin">
+        <div id="women-tab-sec">
+          <div class="flex top-row-1">
+            <div class="top-tabs" onmouseover="circleUp()">
+              <img src="./image/tab-1.jpg" />
+              <div class="flex tab-option">
+              <div class="circle .one temp">
+                 
+                </div>
+              <div class="circle temp .two">
+
+                </div>
+              <div class="circle temp .three">
+
+                </div>
+              </div>
+              <div>
+                <div class="prod-category">DRESSES</div>
+                <div class="prod-tab">Onepiece</div>
+                <div class="tab-price">Price 65$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-2.jpg" />
+              <div>
+                <div class="prod-category">GLASSES</div>
+                <div class="prod-tab">Sunglasses</div>
+                <div class="tab-price">Price 29$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-3.jpg" />
+              <div>
+                <div class="prod-category">TOPS</div>
+                <div class="prod-tab">Off-Shoulder Top</div>
+                <div class="tab-price">Price 45$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-4.jpg" />
+              <div>
+                <div class="prod-category">JACKETS</div>
+                <div class="prod-tab">Parka Jacket</div>
+                <div class="tab-price">Price 79$</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex top-row-2">
+            <div class="top-tabs">
+              <img src="./image/tab-5.jpg" />
+              <div>
+                <div class="prod-category">BAGS</div>
+                <div class="prod-tab">Bagpack</div>
+                <div class="tab-price">Price 69$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-6.jpg" />
+              <div>
+                <div class="prod-category">FOOTWEAR</div>
+                <div class="prod-tab">Shoes</div>
+                <div class="tab-price">Price 59$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-7.jpg" />
+              <div>
+                <div class="prod-category">TOPS</div>
+                <div class="prod-tab">Hoodie</div>
+                <div class="tab-price">Price 65$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-8.jpg" />
+              <div>
+                <div class="prod-category">HEADWEAR</div>
+                <div class="prod-tab">Beanie</div>
+                <div class="tab-price">Price 29$</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="men-tab-sec">
+          <div class="kids-sec flex top-row-1">
+            <div class="top-tabs">
+              <img src="./image/tab-9.jpg" />
+              <div>
+                <div class="prod-category">WATCHES</div>
+                <div class="prod-tab">Men's watch</div>
+                <div class="tab-price">Price 59$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-10.jpg" />
+              <div>
+                <div class="prod-category">FOOTWEAR</div>
+                <div class="prod-tab">Sneaker</div>
+                <div class="tab-price">Price 79$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-11.jpg" />
+              <div>
+                <div class="prod-category">SHIRTS</div>
+                <div class="prod-tab">Printed Shirts</div>
+                <div class="tab-price">Price 39$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-12.jpg" />
+              <div>
+                <div class="prod-category">JACKETS</div>
+                <div class="prod-tab">Leather Jacket</div>
+                <div class="tab-price">Price 69$</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex top-row-2">
+            <div class="top-tabs">
+              <img src="./image/tab-13.jpg" />
+              <div>
+                <div class="prod-category">SHIRTS</div>
+                <div class="prod-tab">Full sleeves Shirts</div>
+                <div class="tab-price">Price 50$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-14.jpg" />
+              <div>
+                <div class="prod-category">GLASSES</div>
+                <div class="prod-tab">Men's Glasses</div>
+                <div class="tab-price">Price 59$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-15.jpg" />
+              <div>
+                <div class="prod-category">TSHIRTS</div>
+                <div class="prod-tab">B Tshirt</div>
+                <div class="tab-price">Price 25$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-16.jpg" />
+              <div>
+                <div class="prod-category">COATS</div>
+                <div class="prod-tab">Long Coat</div>
+                <div class="tab-price">Price 58$</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="kids-tab-sec">
+          <div class="flex top-row-1">
+            <div class="top-tabs">
+              <img src="./image/tab-1.jpg" />
+              <div>
+                <div class="prod-category">DRESSES</div>
+                <div class="prod-tab">Blue One-piece</div>
+                <div class="tab-price">Price 65$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-2.jpg" />
+              <div>
+                <div class="prod-category">WATCHES</div>
+                <div class="prod-tab">Police watch</div>
+                <div class="tab-price">Price 59$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-3.jpg" />
+              <div>
+                <div class="prod-category">TOPS</div>
+                <div class="prod-tab">Off-Shoulder Top</div>
+                <div class="tab-price">Price 45$</div>
+              </div>
+            </div>
+            <div class="top-tabs">
+              <img src="./image/tab-4.jpg" />
+              <div>
+                <div class="prod-category">JACKETS</div>
+                <div class="prod-tab">Parka Jacket</div>
+                <div class="tab-price">Price 79$</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="discover">
+      <div class="head-z automargin ">Discover</div>
+      <div id="banner">
+        <div id="bannerdiv1" >
+          <div><img src="./image/banner-1.jpg"> 
+            <div id="banner1-des">
+              31% OFF ON DENIMS
+            </div>
+            <div class="shop-btn-2">
+              SHOP&nbsp;<i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div> 
+        <div id="bannerdiv2">
+          <div><img src="./image/banner-2.jpg"> 
+            <div id="banner2-des">
+              ALLEN SOLLY COATS<br>25% OFF
+            </div>
+              <div class="shop-btn-3">
+                SHOP&nbsp;<i class="fa-solid fa-arrow-right"></i>
+              </div>
+          </div> 
+        </div>
+    </div>
+</div>
+
+
+      <div class="reviews">
+          <div id="head-y">WHAT BUYERS SAY</div>
+          <div id="head-x">Latest Buyers Reviews</div>
+          <div class="reviewtab flex">
+            <div class="review">
+              <div class="product-name flex">
+                <img class="review-img" src="./image/perfume-d&g.jpg">
+                <div class="review-prod-des">
+                  <span class="review-cat">DRESSES</span><br>
+                  <span class="review-prod-name">Name</span><br>
+                  <span style="margin-left:1vw" class="flex">
+                    <div><i class="fa-solid fa-star fa-sm" style="color: #ffbb1d;"></i></div>
+                    <div><i class="fa-solid fa-star fa-sm" style="color: #ffbb1d;"></i></div>
+                    <div><i class="fa-solid fa-star fa-sm" style="color: #ffbb1d;"></i></div>
+                    <div><i class="fa-solid fa-star fa-sm"></i></div>
+                    <div><i class="fa-solid fa-star fa-sm"></i></div>
+                  </span>
+                </div>
+              </div>
+              <div class="review-des">
+                <br>
+                <span class="review-of-prod">
+                  Shall good midst can't. Have fill own his multiply the divided. Thing great. Of heaven whose signs.
+                
+                </span><br><br>
+                <span class="reviewer-name">
+                  Logan Paul, sep 2023
+                </span>
+              </div>
+            </div>
+            <div class="review">
+              <div class="product-name flex">
+                <img class="review-img" src="./image/perfume-d&g.jpg">
+                <div class="review-prod-des">
+                  <span class="review-cat">DRESSES</span><br>
+                  <span class="review-prod-name">Name</span><br>
+                  <span style="margin-left:1vw" class="flex">
+                    <div><i class="fa-solid fa-star fa-sm" style="color: #ffbb1d;"></i></div>
+                    <div><i class="fa-solid fa-star fa-sm" style="color: #ffbb1d;"></i></div>
+                    <div><i class="fa-solid fa-star fa-sm" style="color: #ffbb1d;"></i></div>
+                    <div><i class="fa-solid fa-star fa-sm"></i></div>
+                    <div><i class="fa-solid fa-star fa-sm"></i></div>
+                  </span>
+                </div>
+              </div>
+              <div class="review-des">
+                <br>
+                <span class="review-of-prod">
+                  Made face lights yielding forth created for image behold blessed seas.
+                
+                </span><br><br>
+                <span class="reviewer-name">
+                  Laura Niki, Oct 2023
+                </span>
+              </div>
+            </div>
+            <div class="review">
+              <div class="product-name flex">
+                <img class="review-img" src="./image/perfume-d&g.jpg">
+                <div class="review-prod-des">
+                  <span class="review-cat">DRESSES</span><br>
+                  <span class="review-prod-name">Name</span><br>
+                  <span style="margin-left:1vw" class="flex">
+                    <div><i class="fa-solid fa-star fa-sm" style="color: #ffbb1d;"></i></div>
+                    <div><i class="fa-solid fa-star fa-sm" style="color: #ffbb1d;"></i></div>
+                    <div><i class="fa-solid fa-star fa-sm" style="color: #ffbb1d;"></i></div>
+                    <div><i class="fa-solid fa-star fa-sm"></i></div>
+                    <div><i class="fa-solid fa-star fa-sm"></i></div>
+                  </span>
+                </div>
+              </div>
+              <div class="review-des">
+                <br>
+                <span class="review-of-prod">
+                  Justo ut diam erat hendrerit. Morbi porttitor, per eu. Sodales curabitur diam sociis. Taciti lobortis nascetur. Ante laoreet odio hendrerit. Dictumst curabitur nascetur lectus potenti dis sollicitudin habitant quis vestibulum.
+                
+                </span><br><br>
+                <span class="reviewer-name">
+                  Rhea Naz, Jun 2023
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="brand-names">
+        <div>
+        <img src="https://cdn.iconscout.com/icon/free/png-512/free-zara-3215529-2673947.png?f=webp&w=256">
+        <img src="https://cdn.iconscout.com/icon/free/png-512/free-reebok-3421600-2854281.png?f=webp&w=256">
+        <img src="https://cdn.iconscout.com/icon/free/png-512/free-asos-282284.png?f=webp&w=256">
+        <img src="https://cdn.iconscout.com/icon/free/png-512/free-adidas-3215355-2673953.png?f=webp&w=256">
+        <img src="https://cdn.iconscout.com/icon/free/png-512/free-nike-15-761696.png?f=webp&w=256">
+        </div>
+        </div>
+        <div class="footer">
+          <div class="wrap flex">
+            <div class="logo footer-logo">
+              Fashion.<br><div>
+              <i class="fa-brands fa-instagram fa-sm"></i>
+              <i class="fa-brands fa-x-twitter fa-ssm"></i>
+              </div>
+            </div>
+            <div id="supp">
+              <span>SUPPORT</span><br><br>
+              <span>
+                Contact Us<br>
+                FAQs<br>
+                Size<br>
+                Shipping and Returns
+              </span>
+            </div>
+            <div id="shop-foot">
+              <span>SHOP</span><br><br>
+              <span>
+                Men<br>
+                Women<br>
+                Kids<br>
+                Discount
+              </span>
+            </div>
+            <div id="company">
+              <span>COMPANY</span><br><br>
+              <span>
+                Our Story <br>
+                Careers <br>
+                Terms <br>
+                Conditions
+              </span>
+            </div>
+            <div id="contact">
+              <span>CONTACT</span><br><br>
+              <span>
+                1-202-555-0105<br>
+                1-202-555-0106<br>
+                help@fashion.com
+              </span>
+            </div>
+            </div>
+
+          </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "name": "Omkar Kamat",
+      "email": "basemail4login@gmai.com",
+      "address": "Punjab"
+    }
+  ]
+}
